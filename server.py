@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def root():
-  return '<h1 style="color: blue">Welcome to ITIL exam..! </h1>'
+  return '<h1 style="color: blue">Welcome to ITIL exam...! </h1>'
 
 @app.route("/modules", methods=["GET"])
 def module():
-	return '<h3 style="color:orange">DITISS module names :- 1.FCN 2.COSA 3.Security Concepts 4.DevOps 5.NDC 6.PKI 7.Cyber Forensics 8.Compliance Audit</h1>'
+	return '<h3 style="color:orange">DITISS Course module names :- 1.FCN 2.COSA 3.Security Concepts 4.DevOps 5.NDC 6.PKI 7.Cyber Forensics 8.Compliance Audit</h1>'
 
 @app.route("/me", methods=["GET"]) 
 def me():
